@@ -9,3 +9,6 @@ Iniciar aplicação com next:
 
 Adicionar TypeScript:
 > yarn add typescript @types/react @types/node -D
+
+Adicionar o styled-components para tratar o CSS:
+https://github.com/vercel/next.js/tree/master/examples/with-styled-components
