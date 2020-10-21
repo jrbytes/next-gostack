@@ -12,3 +12,7 @@ Adicionar TypeScript:
 
 Adicionar o styled-components para tratar o CSS:
 https://github.com/vercel/next.js/tree/master/examples/with-styled-components
+
+
+Executar Json Server:
+> npx json-server server.json -p 3333 -w
