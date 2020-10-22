@@ -1,6 +1,5 @@
 import { GetServerSideProps } from 'next'
-import math from '../lib/math'
-import { Title } from '../styles/pages/Home'
+import { Title } from '@/styles/pages/Home'
 
 interface IProduct {
   id: string
@@ -14,7 +13,7 @@ interface HomeProps {
 export default function Home({ recommendedProducts }: HomeProps) {
   async function handleSum() {
     const math = (await import('../lib/math')).default
-    console.log(process.env.NEXT_PUBLIC_API_URL)
+
     alert(math.sum(3, 5))
   }
 
